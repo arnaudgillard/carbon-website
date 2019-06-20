@@ -1,8 +1,8 @@
 ---
-title: Export pattern
+title: Exporting pattern
 ---
 
-### Exporting a resource saves data out in a different format, external to the system.
+### Exporting a resource saves the data in a location external to the application.
 
 #### Status: 
 
@@ -16,48 +16,47 @@ Experimental
 
 - [Intuitive default name](#intuitive-default-name)
 - [Editable name](#editable-name)
-- [Specify export location](#specify-export-location)
+- [Export to specific location](#export-to-specific-location)
 
 </AnchorLinks>
 
-<ImageComponent cols="8" caption="Example of a export pattern using a modal">
+<ImageComponent cols="12" caption="Example of a export pattern using a modal">
 
 ![Example of a export pattern using a modal in context](images/contextual.png)
 
 </ImageComponent>
 
-## Intuitive default name
+## On-click export
 
-When the resource is given an intuitive name by default and there is no choice of export location - export occurs on the click of the Export button and nothing additional is displayed.
+Sometimes, an applicaiton will provide an export option that adheres to the system default for downloaded files. Export occurs on-click, with no further options provided. If this is the case, the file should be given an intuitive name to ensure the user can locate the file.
 
-<ImageComponent cols="8">
+<ImageComponent cols="12">
 
 ![Example of an export button on a data table](images/1.png)
 
 </ImageComponent>
 
+** DO/DONT EXAMPLE **
+
 ## Editable name
-When exporting with an editable name, a dialog should be presented to the user displaying:
 
-* An editable textbox pre-populated with the default name for the file
-
-* An editable textbox pre-populated with the default name for the file
+When exporting with an editable name, a dialog should be presented to the user displaying an editable textbox pre-populated with the default name for the file.
 
 
-<ImageComponent cols="8">
+<ImageComponent cols="12">
 
 ![Example of an export modal](images/2.png)
 
 </ImageComponent>
 
 
-<ImageComponent cols="8">
+<ImageComponent cols="12">
 
 ![Example of an export modal in its "Exporting" state.](images/3.png)
 
 </ImageComponent>
 
 
-## Specify export location
+## Export to specific location
 
-To specify the download location of a resource, the primary “download” button is pressed and activates the browsers default location panel. The file is automatically downloaded once a location is selected. 
+To specify the export location of a resource, the a user selects the “download” button and activates the browsers default location panel. The file is automatically downloaded once a location is selected.
